@@ -1,0 +1,1 @@
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"\",\"description\":\"\",\"head\":[],\"locales\":{\"/\":{\"lang\":\"en-US\",\"title\":\"AimerSakura‘s Blog\",\"description\":\"A blog demo for vuepress-theme-hope\"},\"/zh/\":{\"lang\":\"zh-CN\",\"title\":\"AimerSakura的博客\",\"description\":\"vuepress-theme-hope 的博客演示\"}}}")
