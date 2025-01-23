@@ -1,2 +1,13 @@
-export const typesMap = JSON.parse("{\"article\":{\"/\":{\"path\":\"/article/\",\"indexes\":[13,0,8,7,6,14,15,9,10,11,12,16,17,30,1,2,3,4,5]},\"/zh/\":{\"path\":\"/zh/article/\",\"indexes\":[25,20,19,18,28,29,21,22,23,24,26,27,31]}},\"star\":{\"/\":{\"path\":\"/star/\",\"indexes\":[9,13,16,0]},\"/zh/\":{\"path\":\"/zh/star/\",\"indexes\":[21,25,26]}},\"timeline\":{\"/\":{\"path\":\"/timeline/\",\"indexes\":[13,8,7,6,14,15,9,10,11,12,16,17,0]},\"/zh/\":{\"path\":\"/zh/timeline/\",\"indexes\":[25,20,19,18,28,29,21,22,23,24,26,27]}}}");
+export const typesMap = JSON.parse("{\"article\":{\"/\":{\"path\":\"/article/\",\"indexes\":[13,0,8,7,6,16,17,9,10,11,12,14,15,20,1,2,3,4,5]},\"/zh/\":{\"path\":\"/zh/article/\",\"indexes\":[18,19,21]}},\"star\":{\"/\":{\"path\":\"/star/\",\"indexes\":[9,13,14,0]},\"/zh/\":{\"path\":\"/zh/star/\",\"indexes\":[18,19]}},\"timeline\":{\"/\":{\"path\":\"/timeline/\",\"indexes\":[13,8,7,6,16,17,9,10,11,12,14,15,0]},\"/zh/\":{\"path\":\"/zh/timeline/\",\"indexes\":[18,19]}}}");
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept();
+  if (__VUE_HMR_RUNTIME__.updateBlogType)
+    __VUE_HMR_RUNTIME__.updateBlogType(typesMap);
+}
+
+if (import.meta.hot)
+  import.meta.hot.accept(({ typesMap }) => {
+    __VUE_HMR_RUNTIME__.updateBlogType(typesMap);
+  });
 
